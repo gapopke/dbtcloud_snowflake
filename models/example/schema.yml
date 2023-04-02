@@ -19,6 +19,7 @@ models:
             tests:
                 - unique
                 - not_null
+    
     - name: example_table
       description: "An example table"
       columns:
