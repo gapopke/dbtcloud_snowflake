@@ -19,3 +19,14 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: example_table
+      description: "An example table"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: name
+            description: "The name of the person"
+            tests:
+                - not_null
