@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
-CREATE TABLE example_table (
+CREATE OR REPLACE TABLE example_table (
   id INTEGER,
   name VARCHAR
 );
