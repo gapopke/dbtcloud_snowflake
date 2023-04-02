@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE example_table (
+CREATE OR REPLACE TABLE DBT_GIT.DBT_GAPOPKE.example_table (
   id INTEGER,
   name VARCHAR
 );
